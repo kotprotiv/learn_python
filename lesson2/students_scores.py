@@ -1,6 +1,6 @@
 students_scores = [{'school_class':'4a', 'scores':[2,3,4,3,4]}
-,{'school_class':'4b', 'scores':[4,3,5,5,2]}
-,{'school_class':'4c', 'scores':[2,5,2,2,2]}]
+, {'school_class':'4b', 'scores':[4,3,5,5,2]}
+, {'school_class':'4c', 'scores':[2,5,2,2,2]}]
 
 sum_all = 0
 count_all = 0

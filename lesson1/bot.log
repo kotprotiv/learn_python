@@ -1,2 +1,251 @@
 telegram.ext.updater - WARNING - Exiting immediately!
 telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 34, in planet_constellation
+    update.message.reply_text(ephem.constellation(user_text))
+ValueError: the sequence specifying a position must have exactly two coordinates
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 36, in planet_constellation
+    update.message.reply_text(ephem.Mars.constellation(now()))
+AttributeError: type object 'Mars' has no attribute 'constellation'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 36, in planet_constellation
+    update.message.reply_text(ephem.Mars.constellation(now()))
+AttributeError: type object 'Mars' has no attribute 'constellation'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update('first_name'))
+TypeError: 'Update' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update('first_name'))
+TypeError: 'Update' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update('first_name'))
+TypeError: 'Update' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update('first_name'))
+TypeError: 'Update' object is not callable
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['first_name'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'first_name'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['chat'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'chat'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 23, in greet_user
+    text = 'Приветствую тебя, {}!'.format(update['chat'])
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/base.py", line 39, in __getitem__
+    return self.__dict__[item]
+KeyError: 'chat'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 39, in planet_constellation
+    print(args[0])
+IndexError: list index out of range
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 51, in planet_constellation
+    answer = ephem.constellation(ephem.Earth(str(now)))
+AttributeError: module 'ephem' has no attribute 'Earth'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - ERROR - Error while getting Updates: Timed out
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 47, in planet_constellation
+    answer = ephem.constellation(ephem.Earth(str(now)))
+AttributeError: module 'ephem' has no attribute 'Earth'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in calculate
+    command = command + text
+UnboundLocalError: local variable 'command' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in calculate
+    command = command + text
+UnboundLocalError: local variable 'command' referenced before assignment
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - ERROR - Error while getting Updates: Timed out
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1041a7908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /bot432283548:AAFcJ8EIaghmH2SyvDBy5Ngn892-6INbTZ8/getUpdates
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 84, in calculate
+    answer = args_list[0] - args_list[1]
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
